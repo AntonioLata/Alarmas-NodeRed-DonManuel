@@ -2,7 +2,11 @@
     "name": "AlarmasDonManuel",
     "description": "Sistema de alarmas Don Manuel con Node-Red",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-boolean-logic-ultimate": "1.1.25",
+        "node-red-contrib-modbus": "5.43.0",
+        "node-red-dashboard": "3.6.5"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
